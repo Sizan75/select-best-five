@@ -11,7 +11,7 @@ document.getElementById('btn-calculate').addEventListener('click', function(){
     const total = newPlayerCost * listLength ;
     playerTotalExpenses.innerText = total ;
 })
-
+// Calculate Total Button 
 document.getElementById('btn-calculate-total').addEventListener('click',function(){
     const managerCost = getValueById('manager-expense');
     const coachCost = getValueById('coach-expense');

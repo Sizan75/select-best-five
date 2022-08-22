@@ -1,9 +1,9 @@
-.orange_color{
+/* style for heading  */
+.heading-style{
     font-weight: 400;
     color: orange;
 }
-/* .aside{
-    float: right;
-    background-color: black;
-    
-} */
+/* background Color for main section  */
+.bg-custom{
+background-color: gray;
+}

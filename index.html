@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Choose Your Favorite Player</title>
     <!-- Custom Style Sheet  -->
     <link rel="stylesheet" href="styles/style.css">
     <!-- Bootstrap Style Sheet  -->
@@ -14,14 +14,14 @@
 <body>
     <!-- Header Start  -->
     <header>
-       <div class="container text-center bg-dark mt-2 ">
+       <div class="text-center bg-dark mt-2 ">
         <div class="row">
             <div class="col">
-            <img class="img-fluid mt-5 pt-5 " src="image/group12.png" alt="">
+            <img class="img-fluid mt-5 pt-5 ps-4 " src="image/group12.png" alt="">
             </div>
             <div class="col-6 mt-5 pt-5">
-           <h1 class="orange_color fw-bold fst-italic">Choose Your Favorite Player</h1>
-           <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam quas magni, repellat numquam asperiores praesentium exercitationem minima voluptates excepturi?</p>
+           <h1 class="heading-style fw-bold fst-italic">Choose Your Favorite Player</h1>
+           <p class="text-white">In the world there are so many best player. But also some legends players too.In this website you have to select your favorite five players.You can select by their goal, assist, or saves, tackels. And calculate their salary , manager's salary, coach's salary. </p>
             </div>
             <div class="col">
                 <img class="img-fluid mb-5 pb-5 " src="image/group12.png" alt="">
@@ -31,8 +31,8 @@
     </header>
     <main> 
         
-           <section>
-            <div class="container text-center mt-5">
+           <section class="bg-custom">
+            <div class="container  text-center mt-5">
                 <div class="row gx-5 gy-5">
                   <div class="col-lg-9 col-md-9 col-sm-9">
                 <div id="btn-select" class="row gx-5 gy-5">
@@ -101,22 +101,22 @@
                 </div>
                   <div class="col-lg-3">
                    <div class="card text-bg-dark" style="width:18rem;">
-                    <h3 class="orange_color fw-bold">Selected Player LIST</h3>
+                    <h3 class="heading-style fw-bold">Selected Player LIST</h3>
                     <ol id="order-list" class="pt-3 pb-4">
                     </ol>
                    </div>
                    <div class="col-3 mt-5">
                     <div class="card text-bg-dark"style="width:18rem;">
-                        <h3 class="orange_color fw-bold">Budget</h3>
+                        <h3 class="heading-style fw-bold">Budget</h3>
                         <div>
                             <label for="">Per Player :</label>
                         <input id="per-player-cost" class="" type="text" value="1000">
                         <button id="btn-calculate" class="btn btn-primary mx-5 px-5 my-2 fw-bold">Calculate</button>
                         <h5>Player Expenses      $<span id="player-total-expenses">5000</span></h5>
                         <label for="">Manager  :</label>
-                        <input id="manager-expense" type="text">
+                        <input id="manager-expense" type="text" value="2000">
                         <label for="" class="pe-3">Coach   :    </label>
-                        <input id="coach-expense" type="text" class="ps-2 mt-2" >
+                        <input id="coach-expense" type="text" class="ps-2 mt-2" value="4000" >
                         <button id="btn-calculate-total" class="btn btn-primary mx-4 px-5 my-2 fw-bold">Calculate Total</button>
                         <h5>Total $ <span id="total-expenses">11000</span> </h5>
                         </div>
