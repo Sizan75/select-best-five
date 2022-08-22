@@ -1,10 +1,5 @@
 
-function getValueById(elementId){
-    const playerCost = document.getElementById(elementId);
-    const playerCostString = playerCost.value;
-    const newPlayerCost = parseFloat(playerCostString);
-    return newPlayerCost;
-}
+
 // Calculate Per Player Cost Button 
 document.getElementById('btn-calculate').addEventListener('click', function(){
 

@@ -28,3 +28,9 @@ function isLiLength()
    const  listLength = listLi.length;
     return listLength;
 }
+function getValueById(elementId){
+    const playerCost = document.getElementById(elementId);
+    const playerCostString = playerCost.value;
+    const newPlayerCost = parseFloat(playerCostString);
+    return newPlayerCost;
+}
