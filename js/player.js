@@ -61,12 +61,13 @@ document.getElementById('btn-player-5').addEventListener('click', function(){
     if(listLength < 5)
     {
         addChild(playerNameString);
+        disableNextButton('btn-player-5'); 
     }   
     else
     {
         alert("You Already Select Five Players ");
     }
-   disableNextButton('btn-player-5'); 
+
    })
    // Player-6 button event Lisener 
 document.getElementById('btn-player-6').addEventListener('click', function(){
