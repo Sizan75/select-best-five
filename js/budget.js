@@ -7,7 +7,7 @@ document.getElementById('btn-calculate').addEventListener('click', function(){
 
     const playerTotalExpenses= document.getElementById('player-total-expenses');
     
-    const listLength = isLiLength();  
+    const listLength =liLength();  
     const total = newPlayerCost * listLength ;
     playerTotalExpenses.innerText = total ;
 })
@@ -21,8 +21,7 @@ document.getElementById('btn-calculate-total').addEventListener('click',function
     const playerTotalCost = parseFloat(playerTotalExpensesString);
 
     const total= document.getElementById('total-expenses');
-    const totalString = total.innerText;
-    const totalExpenses = parseFloat(totalString);
+    
 
     const newTotal = managerCost + coachCost + playerTotalCost ;
     total.innerText=newTotal;

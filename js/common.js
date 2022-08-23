@@ -5,24 +5,24 @@ function getPlayerName(elementID){
     return playerNameString;
 }
 // Add li Function  
-function addChild(playerNameString){
+function addLiChild(playerNameString){
     let list = document.querySelector('#order-list'); 
     
-    let item = document.createElement('li'); // create li node
-    let itemText = document.createTextNode(playerNameString); // create text node
+    let item = document.createElement('li'); 
+    let itemText = document.createTextNode(playerNameString); 
     
-    item.appendChild(itemText); // append text node to li node
+    item.appendChild(itemText); 
     list.appendChild(item);
 }
 // Button Disable Function 
-function disableNextButton(btnId) {
+function disableButton(btnId) {
     document.getElementById(btnId).disabled = 'true';
     const selectedButton = document.getElementById(btnId);
     selectedButton.style.backgroundColor = '#A2A9AF';
    
 }
 // List li length calculate Function 
-function isLiLength()
+function liLength()
 {
     const listLi = document.querySelectorAll("li");
    const  listLength = listLi.length;
@@ -31,8 +31,8 @@ function isLiLength()
 // function for  converting input value 
 function getValueById(elementId){
     
-    const playerCost = document.getElementById(elementId);
-    const playerCostString = playerCost.value;
-    const newPlayerCost = parseFloat(playerCostString);
-    
+    const inputValue = document.getElementById(elementId);
+    const inputString = inputValue.value;
+    const newPlayerCost = parseFloat(inputString);
+    return newPlayerCost;
 }
