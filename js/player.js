@@ -5,12 +5,12 @@ document.getElementById('btn-player-1').addEventListener('click', function(){
     if(listLength < 5)
     {
         addChild(playerNameString);
+        disableNextButton('btn-player-1'); 
     }   
     else
     {
         alert("You Already Select Five Players ");
-    }
-   disableNextButton('btn-player-1'); 
+    } 
    })
 // Player-2 button event Lisener 
 document.getElementById('btn-player-2').addEventListener('click', function(){
@@ -19,12 +19,12 @@ document.getElementById('btn-player-2').addEventListener('click', function(){
     if(listLength < 5)
     {
         addChild(playerNameString);
+        disableNextButton('btn-player-2'); 
     }   
     else
     {
         alert("You Already Select Five Players ");
     }
-   disableNextButton('btn-player-2'); 
    })
    // Player-3 button event Lisener 
 document.getElementById('btn-player-3').addEventListener('click', function(){
@@ -33,12 +33,12 @@ document.getElementById('btn-player-3').addEventListener('click', function(){
     if(listLength < 5)
     {
         addChild(playerNameString);
+        disableNextButton('btn-player-3'); 
     }   
     else
     {
         alert("You Already Select Five Players ");
     }
-   disableNextButton('btn-player-3'); 
    })
    // Player-4 button event Lisener 
 document.getElementById('btn-player-4').addEventListener('click', function(){
@@ -47,12 +47,12 @@ document.getElementById('btn-player-4').addEventListener('click', function(){
     if(listLength < 5)
     {
         addChild(playerNameString);
+        disableNextButton('btn-player-4'); 
     }   
     else
     {
         alert("You Already Select Five Players ");
     }
-   disableNextButton('btn-player-4'); 
    })
    // Player-5 button event Lisener 
 document.getElementById('btn-player-5').addEventListener('click', function(){
@@ -76,10 +76,10 @@ document.getElementById('btn-player-6').addEventListener('click', function(){
     if(listLength < 5)
     {
         addChild(playerNameString);
+        disableNextButton('btn-player-6'); 
     }   
     else
     {
         alert("You Already Select Five Players ");
-    }
-   disableNextButton('btn-player-6'); 
+    } 
    })
